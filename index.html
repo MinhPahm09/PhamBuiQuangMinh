@@ -52,10 +52,10 @@ h1{font-size:clamp(2.2rem,5.2vw,3.7rem);line-height:1.08;letter-spacing:-.025em;
 .avatar{position:relative;aspect-ratio:4/5;border:1px solid var(--line);border-radius:16px;display:grid;place-items:center;overflow:hidden;background:linear-gradient(var(--line) 1px,transparent 1px) 0 0/32px 32px,linear-gradient(90deg,var(--line) 1px,transparent 1px) 0 0/32px 32px,var(--surface)}
 .avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%}
 .avatar .slides{position:absolute;inset:0;overflow:hidden}
-.avatar .track{display:flex;width:100%;height:100%;animation:avatar-slide 15s cubic-bezier(.65,0,.35,1) infinite}
+.avatar .track{display:flex;width:100%;height:100%;animation:avatar-slide 25s cubic-bezier(.65,0,.35,1) infinite}
 .avatar .track img{position:static;flex:0 0 100%;width:100%;height:100%}
 .avatar:hover .track{animation-play-state:paused}
-@keyframes avatar-slide{0%,27%{transform:translateX(0)}33.33%,60.33%{transform:translateX(-100%)}66.67%,93.67%{transform:translateX(-200%)}100%{transform:translateX(-300%)}}
+@keyframes avatar-slide{0%,16%{transform:translateX(0)}20%,36%{transform:translateX(-100%)}40%,56%{transform:translateX(-200%)}60%,76%{transform:translateX(-300%)}80%,96%{transform:translateX(-400%)}100%{transform:translateX(-500%)}}
 @media(prefers-reduced-motion:reduce){.avatar .track{animation:none}}
 .avatar b{font:700 clamp(2.4rem,6vw,3.6rem) var(--mono);letter-spacing:.06em;color:var(--accent)}
 .avatar span{position:absolute;left:14px;bottom:14px;background:var(--bg);border:1px solid var(--line);padding:6px 12px;border-radius:999px;font:11px var(--mono);letter-spacing:.1em;text-transform:uppercase}
@@ -247,6 +247,8 @@ dialog p{color:var(--muted)}
     <img src="avatar-bali.jpg" width="1000" height="1333" alt="Pham Bui Quang Minh wearing an Asian Chemistry Olympiad T-shirt in Bali, Indonesia">
     <img src="avatar-ceremony.jpg" width="1400" height="1202" alt="Minh holding a Vietnamese flag at the ceremony for 80 years of Vietnam's education sector and the 2025–2026 school year opening in Hanoi" style="object-position:59% 50%" loading="lazy">
     <img src="avatar-child.jpg" width="900" height="1350" alt="Minh as a young child" style="object-position:50% 30%" loading="lazy">
+    <img src="avatar-stage.jpg" width="900" height="1350" alt="Minh speaking with a microphone on stage in a grey suit and bow tie" style="object-position:50% 55%" loading="lazy">
+    <img src="avatar-singapore.jpg" width="900" height="1350" alt="Minh as a child in front of the Merlion statue on Sentosa, Singapore" style="object-position:50% 60%" loading="lazy">
     <img src="avatar-bali.jpg" width="1000" height="1333" alt="" aria-hidden="true">
    </div></div>
    <span>12 Chemistry 1</span></div>
