@@ -151,6 +151,8 @@ h2 .num{font-family:var(--mono);color:var(--accent);font-size:.8em;margin-right:
 .steps figcaption{display:flex;gap:10px;margin-top:8px;font:12px/1.55 var(--mono);letter-spacing:.02em;color:var(--muted)}
 .steps figcaption .n{color:var(--accent);flex:none}
 .proj .slides{margin:0 0 18px}
+.proj-links{display:flex;flex-wrap:wrap;gap:8px 28px;margin:0 0 18px}
+.proj-links .ext{margin:0}
 .poster{grid-column:1/-1;justify-self:center;width:100%;margin:12px auto 0;max-width:820px}
 .poster figcaption{text-align:center}
 .poster a{display:block;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;transition:border-color .2s}
@@ -388,7 +390,10 @@ dialog p{color:var(--muted)}
      </dl>
     </div>
     <div>
-     <a class="ext slides" href="https://drive.google.com/file/d/1exM8u58p5tr6kThbD9355h7zjQssR6ti/view" target="_blank" rel="noopener noreferrer">View presentation slides</a>
+     <div class="proj-links">
+      <a class="ext" href="https://drive.google.com/file/d/1exM8u58p5tr6kThbD9355h7zjQssR6ti/view" target="_blank" rel="noopener noreferrer">View presentation slides</a>
+      <a class="ext" href="https://app.flutterflow.io/preview/safedrive-wbfg72?page=Auth2" target="_blank" rel="noopener noreferrer">Try the SafeDrive+ app prototype</a>
+     </div>
      <p class="label">Summary</p>
      <p class="proj-lead">I am developing a mobile app that estimates a driver’s blood alcohol concentration and warns them before they get behind the wheel, because drunk driving is a major cause of dangerous road accidents.</p>
      <div class="proj-body">
